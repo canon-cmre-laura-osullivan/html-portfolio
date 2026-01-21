@@ -5,87 +5,136 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Laura's Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Laura's Portfolio</h1>
-    <!-- <h2>I am a Web Developer</h2> -->
+    <div class="web-page">
+      <div class="top-bar">
+        <h1>Laura's Portfolio</h1>
+      </div>
+      <div class="intro">
+        <h2>Follow My Web Dev Journey</h2>
 
-    <a href=".\public\movie_Laura.html"><h3>Movie Ranking</h3></a>
-    <img
-      src=".\assets\images\movie_Laura.png"
-      width="200"
-      alt="Laura's movies"
-    />
-    <br />
+        <p>
+          Here are some of the projects I've created during the Udemy Web
+          Development course. Click the text to view the project pages. Enjoy!
+        </p>
+      </div>
 
-    <a href=".\public\birthday_Laura.html"><h3>Birthday Invite</h3></a>
-    <img
-      src=".\assets\images\birthday_Laura.png"
-      width="200"
-      alt="Laura's birthday invite"
-    />
-    <br />
+      <div class="projects">
+        <div class="project movie">
+          <img
+            src=".\assets\images\movie_Laura.png"
+            width="200"
+            alt="Laura's movies"
+          />
+          <a href=".\public\movie_Laura.html"><h3>Movie Ranking</h3></a>
+        </div>
 
-    <a href=".\public\colours_Japanese.html"><h3>Japanese Colours</h3></a>
-    <img
-      src=".\assets\images\japanese_colours.png"
-      width="200"
-      alt="Japanese colours"
-    />
-    <br />
+        <hr />
 
-    <a href=".\public\ski_meme.html"><h3>Ski Meme</h3></a>
-    <img
-      src=".\assets\images\ski_meme.png"
-      width="200"
-      alt="Ski Meme Preview"
-    />
+        <div class="project birthday">
+          <img
+            src=".\assets\images\birthday_Laura.png"
+            width="200"
+            alt="Laura's birthday invite"
+          />
+          <a href=".\public\birthday_Laura.html"><h3>Birthday Invite</h3></a>
+        </div>
 
-    <br />
+        <hr />
 
-    <a href=".\public\Laos_Flag.html"><h3>Flag of Laos (or L.A.O'S 😂)</h3></a>
-    <img
-      src=".\assets\images\laos_flag.png"
-      width="200 "
-      alt="Flag of Laos Preview"
-    />
-    <br />
+        <div class="project japanese-colours">
+          <img
+            src=".\assets\images\japanese_colours.png"
+            width="200"
+            alt="Japanese colours"
+          />
+          <a href=".\public\colours_Japanese.html"><h3>Japanese Colours</h3></a>
+        </div>
 
-    <a href=".\public\dog_photo.html"><h3>Dog Photography Agency</h3></a>
-    <img
-      src=".\assets\images\dog_photo.png"
-      width="200 "
-      alt="Dog Photography Preview"
-    />
-    <br />
+        <hr />
 
-    <a href=".\public\price_plan.html"><h3>Flexbox Pricing Table</h3></a>
-    <img
-      src=".\assets\images\price_plan.png"
-      width="200 "
-      alt="Flexbox Pricing Table Preview"
-    />
-    <br />
-    <a href=".\public\mondrian.html"><h3>Unleashing my Inner Mondrian</h3></a>
-    <img
-      src=".\assets\images\mondrian.png"
-      width="200 "
-      alt="Mondrian Grid Art Preview 1"
-    />
-    <br />
+        <div class="project ski">
+          <img
+            src=".\assets\images\ski_meme.png"
+            width="200"
+            alt="Ski Meme Preview"
+          />
+          <a href=".\public\ski_meme.html"><h3>Ski Meme</h3></a>
+        </div>
 
-    <a href=".\public\mondrian_2.html"
-      ><h3>I enjoyed it so much I did it twice 😆</h3></a
-    >
-    <img
-      src=".\assets\images\mondrian_2.png"
-      width="200 "
-      alt="Mondrian Grid Art Preview 2"
-    />
-    <br />
+        <hr />
 
-    <a href=".\public\about.html">About Me</a><br />
-    <a href=".\public\contact.html">Contact Me</a><br />
+        <div class="project laos">
+          <img
+            src=".\assets\images\laos_flag.png"
+            width="200"
+            alt="Flag of Laos Preview"
+          />
+          <a href=".\public\Laos_Flag.html"
+            ><h3>Flag of Laos (or L.A.O'S 😂)</h3></a
+          >
+        </div>
+
+        <hr />
+
+        <div class="project dog-photo">
+          <img
+            src=".\assets\images\dog_photo.png"
+            width="200"
+            alt="Dog Photography Preview"
+          />
+          <a href=".\public\dog_photo.html"><h3>Dog Photography Agency</h3></a>
+        </div>
+
+        <hr />
+
+        <div class="project pricing">
+          <img
+            src=".\assets\images\price_plan.png"
+            width="200"
+            alt="Flexbox Pricing Table Preview"
+          />
+          <a href=".\public\price_plan.html"><h3>Flexbox Pricing Table</h3></a>
+        </div>
+
+        <hr />
+
+        <div class="project mondrian">
+          <img
+            src=".\assets\images\mondrian.png"
+            width="200"
+            alt="Mondrian Grid Art Preview 1"
+          />
+          <a href=".\public\mondrian.html"
+            ><h3>Unleashing my Inner Mondrian</h3></a
+          >
+        </div>
+
+        <div class="project mondrian-2">
+          <img
+            src=".\assets\images\mondrian_2.png"
+            width="200"
+            alt="Mondrian Grid Art Preview 2"
+          />
+          <a href=".\public\mondrian_2.html"
+            ><p>I enjoyed it so much I did it twice 😆</p></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <a href=".\public\about.html" class="footer-button">About Me</a>
+      <a href=".\public\contact.html" class="footer-button">Contact Me</a>
+    </div>
   </body>
 </html>
 
